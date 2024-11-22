@@ -23,8 +23,8 @@ enlaces.forEach(function (enlace) {
         //Traer la informacion del objeto correrspondiete a la eleccion
         let contenido = obtenerContenido(this.textContent)
 
-        //Mostrar contenido en el DOM
-        tituloElemento.innerHTML = contenido.titulo
+        //Mostrar contenido en el DOM           
+        tituloElemento.innerHTML = contenido.titulo 
         subTituloElemento.innerHTML = contenido.subtitulo
         parrafoElemento.innerHTML = contenido.parrafo
         precioElemento.innerHTML = contenido.precio
